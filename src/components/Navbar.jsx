@@ -16,7 +16,7 @@ const Navbar = () => {
             </ul>
         </div>
         <div className='flex gap-8 text-lg pr-2'>
-            <button className='text-[#4CAF4F] p-2 '>Login</button>
+            <button className='text-[#4CAF4F] p-2 border-0'>Login</button>
             <button className='bg-[#4CAF4F] p-2 rounded-lg text-white'>Signup</button>
         </div>
     </div>

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Navbar from './components/Navbar'
 import './App.css'
 import Hero from './components/Hero'
+import DesignFooter from './components/DesignFooter'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,6 +11,8 @@ function App() {
     <>
      <Navbar/>
      <Hero/>
+     <DesignFooter/>
+     
     </>
   )
 }
